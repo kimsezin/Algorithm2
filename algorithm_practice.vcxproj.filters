@@ -15,7 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="연습.cpp">
+    <ClCompile Include="SWEA_11285_다트게임.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SWEA_1989_초심자의회문검사.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SWEA_1206_View.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

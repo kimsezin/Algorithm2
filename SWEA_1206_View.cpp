@@ -32,9 +32,21 @@
 
 #include<iostream>
 #include<vector>
-#include<algorithm>
 using namespace std;
+int find_max(int a, int b, int c, int d)
+{
+	int max_value = 0;
+	if (max_value < a)
+		max_value = a;
+	if (max_value < b)
+		max_value = b;
+	if (max_value < c)
+		max_value = c;
+	if (max_value < d)
+		max_value = d;
 
+	return max_value;
+}
 int main(int argc, char** argv)
 {
 	int test_case;
@@ -49,42 +61,37 @@ int main(int argc, char** argv)
 	   단, 채점을 위해 코드를 제출하실 때에는 반드시 freopen 함수를 지우거나 주석 처리 하셔야 합니다.
 	*/
 	//freopen("input.txt", "r", stdin);
-	cin >> T;
+	
 	/*
 	   여러 개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
 	*/
-	for (test_case = 1; test_case <= T; ++test_case)
+	for (int i = 0; i < 10; i++)
 	{
-		vector<pair<int, int>> horse;
-		vector<int> result;
-		float D, N;
-		cin >> D >> N;
-		for (int i = 0; i < N; i++)
+		cin >> T;
+		int sum = 0;
+		vector<int> building;
+		for (test_case = 1; test_case <= T; ++test_case)
 		{
-			int K, S;
-			cin >> K >> S;
-			horse.push_back({ K,S });
+			int temp;
+
+			cin >> temp;
+			building.push_back(temp);
 		}
 
-		float max_time = 0;
-		for (int i = 0; i < horse.size(); i++)
+		int Sum = 0;
+		for (int i = 2; i < T - 2; i++)
 		{
-			int point = horse[i].first;
-			int speed = horse[i].second;
+			int Cur_Height = building[i];
+			int Size_Max_Height = max(building[i - 2], max(building[i - 1], max(building[i + 1], building[i + 2])));
 
-			float time = (D - point) / speed;
-
-			if (max_time < time)
+			if (Cur_Height > building[i - 1] && Cur_Height > building[i - 2] && Cur_Height > building[i + 1] && Cur_Height > building[i + 2])
 			{
-				max_time = time;
+				sum = sum + (Cur_Height - Size_Max_Height);
 			}
 		}
 
-		cout << D / max_time;
 
-
-
-
+		cout << '#' << i << ' ' << sum << endl;
 	}
 	return 0;//정상종료시 반드시 0을 리턴해야합니다.
 }
