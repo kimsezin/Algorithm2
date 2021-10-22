@@ -24,5 +24,20 @@
     <ClCompile Include="SWEA_1206_View.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="SWEA_12741_두전구.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SWEA_12368_24시간.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SWEA_1244_최대상금.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SWEA_1208_Flatten.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SWEA_1240_단순2진암호코드.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
