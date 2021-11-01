@@ -57,5 +57,8 @@
     <ClCompile Include="SWEA_2805_농작물수확하기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="SWEA_1217_거듭제곱.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
