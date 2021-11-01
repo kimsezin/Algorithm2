@@ -20,6 +20,8 @@ int main()
 		{
 			result = result * num;
 		}
+		
+		cout << '#' << i << ' ' << result << endl;
 	}
 	return 0;
 }
