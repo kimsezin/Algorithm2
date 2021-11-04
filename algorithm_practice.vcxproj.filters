@@ -75,7 +75,10 @@
     <ClCompile Include="SWEA_1228_암호문1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="SWEA_2814_최장경로.cpp">
+    <ClCompile Include="SWEA_1234_비밀번호.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SWEA_1230_암호문3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
