@@ -39,11 +39,41 @@ int main()
 					cin >> temp;
 					input.insert(input.begin() + index + j, temp);
 				}
+			}
 
+			if (function == 'D')
+			{
+				int index;
+				cin >> index;
+
+				int num;
+				cin >> num;
+
+				for (int i = 0; i < num; i++)
+				{
+					input.erase(input.begin()+index);
+				}
+			}
+
+			if (function == 'A')
+			{
+				int num;
+				cin >> num;
+
+				for (int i = 0; i < num; i++)
+				{
+					int temp;
+					cin >> temp;
+					input.push_back(temp);
+				}
 			}
 			
-
-			
+			cout << '#' << test_case << ' ';
+			for (int i = 0; i < input.size(); i++)
+			{
+				cout << input[i] << ' ';
+			}
+			cout << endl;
 		}
 	}
 	return 0;

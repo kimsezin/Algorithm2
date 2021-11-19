@@ -81,5 +81,14 @@
     <ClCompile Include="SWEA_1230_암호문3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="11번가 3번.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SWEA_5215_햄버거다이어트.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SWEA_1873_상호의배틀필드.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
