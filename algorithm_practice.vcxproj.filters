@@ -105,7 +105,7 @@
     <ClCompile Include="15312_이름궁합.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="9625_BABBA.cpp">
+    <ClCompile Include="9625_BABBA%28X%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="13301_타일장식물.cpp">
@@ -115,6 +115,24 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="17202_핸드폰번호궁합.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="15881_pPAp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1010_다리놓기%28X%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="18228_펭귄추락대책위원회.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="18229_내가살게, 아냐 내가살게.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="18232_텔레포트정거장.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="18234_당근훔쳐먹기.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
